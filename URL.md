@@ -6,7 +6,7 @@ Get the full URL for the current request.
 
 Get the current URL for the request.
 
-## `URL::previous ( $fallback = false)`
+## `URL::previous($fallback = false)`
 
 Get the URL for the previous request.
 
@@ -30,11 +30,11 @@ Generate the URL to an application asset.
 
 Generate the URL to a secure asset.
 
-## `URL::assetFrom( $root, $path, $secure = null)`
+## `URL::assetFrom($root, $path, $secure = null)`
 
 Generate the URL to an asset from a custom root domain such as CDN, etc.
 
-## `URL::formatScheme ( $secure = null)`
+## `URL::formatScheme($secure = null)`
 
 Get the default scheme for a raw URL.
 
@@ -50,7 +50,7 @@ Get the URL to a named route.
 
 Create a temporary signed route URL for a named route.
 
-## `URL::toRoute ( $route, $parameters, $ absolute)`
+## `URL::toRoute($route, $parameters, $ absolute)`
 
 Get the URL for a given route instance.
 
