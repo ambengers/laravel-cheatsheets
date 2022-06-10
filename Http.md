@@ -10,7 +10,7 @@ Attach a raw body to the request.
 
 Indicate the request contains JSON.
 
-## `Http:: asForm()`
+## `Http::asForm()`
 
 Indicate the request contains form parameters.
 
@@ -18,7 +18,7 @@ Indicate the request contains form parameters.
 
 Attach a file to the request
 
-## `Http:: asMultipart()`
+## `Http::asMultipart()`
 
 Indicate the request is a multi-part form request.
 
